@@ -408,6 +408,7 @@ html {
     .second-column-two{
         left: 10%;
         right: 10%;
+        top:22%;
     }
     .second-column-two h2, .social-media i{
         font-size:25px;
@@ -422,6 +423,7 @@ html {
     }
     .login, .cadastro{
         width: 60%;
+        margin-top: 10%;
     }
     .second-column-two input{
         height: 30px;
