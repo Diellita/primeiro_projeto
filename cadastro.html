@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="site.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script type="text/javascript" src="site.js"></script>
+    <title>Página de Cadastro</title>
+</head>
+<body>
+    <div class = "container">
+        <div id="cadastro" class = "cadastro">
+            <div class="first-column">
+                <a id="acessar" href="Home.html"  class = "btn btn-primary">Voltar</a>
+            </div>
+            <div  class="second-column">
+                <center><p class="description">Acesse através de suas Redes Sociais ou Insira seus dados pessoais para se cadastrar</p></center>   
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <li class = "item-social-media">
+                            <a href=https://pt-br.facebook.com/ target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class = "item-social-media">
+                            <a href=https://accounts.google.com/ target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li class = "item-social-media">
+                            <a href=https://br.linkedin.com/ target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <h2 class="title">Criar Conta</h2>
+                <form class="form">
+                    <label >Nome</label><input type="text" placeholder="Insira seu Nome">
+                    <label>Sobrenome</label><input type="text"placeholder ="Sobrenome Completo">
+                    <label>Email</label> <input type="email"placeholder ="EX: maria@hotmail.com">
+                    <label>Confime seu email</label><input type="email"placeholder ="Repita o Email acima">
+                    <label>Data de Nascimento</label><input id="datepicker" type="date" form>
+                    <label>Sexo</label>
+                    <select >
+                        <option disabled="disabled" selected="selected">Selecione</option>
+                        <option> Feminino </option>
+                        <option> Masculino </option>
+                    </select>
+                        <label>Telefone </label> <input type="tel"placeholder ="(00)Telefone com DDD">
+                        <label>CEP </label>  <input type="text"placeholder ="Cep 00000-000">
+                    <label>Estado</label>
+                    <select >
+                            <option disabled="disabled" selected="selected">Selecione</option>
+                            <option> Acre </option>
+                            <option> Alagoas </option>
+                            <option> Amapá </option>
+                            <option> Amazonas </option>
+                            <option> Bahia </option>
+                            <option> Ceará </option>
+                            <option> Distrito Federal </option>
+                            <option> Espírito Santo </option>
+                            <option> Goiás </option>
+                            <option> Maranhão </option>
+                            <option> Mato Grosso </option>
+                            <option> Mato Grosso do Sul </option>
+                            <option> Minas Gerais </option>
+                            <option> Pará </option>
+                            <option> Paraíba </option>
+                            <option> Paraná </option>
+                            <option> Pernambuco </option>
+                            <option> Piauí </option>
+                            <option> Rio de Janeiro </option>
+                            <option> Rio Grande do Norte </option>
+                            <option> Rio Grande do Sul </option>
+                            <option> Rondônia </option>
+                            <option> Roraima </option>
+                            <option> Santa Catarina </option>
+                            <option> São Paulo </option>
+                            <option> Sergipe </option>
+                            <option> Tocantis </option>
+                        </select>  
+                        <label>Cidade </label><input type="text"placeholder ="Cidade">
+                        <label>Bairro </label>  <input type="text"placeholder ="Bairro">
+                        <label>Endereço </label> <input type="text"placeholder ="Ex: Rua, Avenida...">
+                        <label>Número </label> <input type="text"placeholder = "Número">
+                        <label>Complemento </label> <input type="text"placeholder = "Ex: Quadra, apartamento, Condomínio ">
+                        <label>Escolaridade </label>
+                        <select>
+                            <option disabled="disabled" selected="selected">Selecione</option>
+                            <option> Não Alfabetizado</option>
+                            <option> Ensino Fundamental</option>
+                            <option> Ensino Medio</option>
+                            <option> Ensino Técnico</option>
+                            <option> Ensino Superior </option>
+                            <option> Pós Graduação </option>
+                            <option> Mestrado </option>
+                            <option> Doutorado </option>
+                        </select>
+                        <label>Profissão </label><input type="text"placeholder ="Insira aqui sua profissão">
+                        <label>Nome de usuário </label>  <input type="text"placeholder ="Escolha um nome de usuário">
+                        <label>Confirme o nome de usuário </label>  <input type="text"placeholder = "Confirme o nome de usuário ">
+                        <label>Senha </label><input type="password"placeholder ="Crie sua Senha de acesso">
+                    <label>Confirme sua senha  </label> <input type="password"placeholder ="Confirmação de Senha">
+                </form>
+                <button onclick="alert('Seus dados foram salvos com sucesso!!!')" class="btn btn-second">Salvar</button>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>

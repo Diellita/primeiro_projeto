@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+html {
+    background: url(fundo.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.container-home {
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.home-cont{
+    padding-top: 5%;
+}
+.home{
+    background-color: rgba(160, 231, 219, 0.7);
+    border-radius: 100px 0px 100px 0px ;
+    width: 40% ;
+    align-items: center;
+    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin: auto;
+    margin-top: 5%;
+    color: rgb(20, 16, 16);
+}
+.title_home{
+    font-size:40px;
+}
+.login-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.login-home, .cadastro-home{
+    background-color:rgb(160, 231, 219); ;
+    border-radius: 15px ;
+    width: 450px;
+    height: 250px;
+    box-shadow:1px 1px 7px 2px rgb(141, 202, 192); 
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(29, 29, 131);
+    margin-right: 3%;
+}
+.login-home p, .cadastro-home p{
+    margin: 5%;
+}
+.login-home a , .cadastro-home a{
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 60%;
+    padding: 2%;
+    cursor: pointer;
+    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid white;
+    transition:background-color .5s;
+    color: rgb(7, 6, 68);
+    text-decoration: none;
+}
+.login-home a:hover, .cadastro-home a:hover{
+    background-color: #bff1ed;
+}
+/*FIM DO HOME*/
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastro {
+    background-color:rgba(160, 231, 219, 0.7);
+    border-radius: 50px ;
+    width: 20% ;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    padding-bottom: 1%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 3%;
+}
+.cadastro a {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 3%;
+    text-decoration: none;
+}
+.cadastro a:hover {
+    background-color: #bff1ed;
+    transition:background-color 1s;
+}
+#acessar{
+    font-size: 150%;
+    color: rgb(11, 12, 68);
+}
+/*FIM DO PRIMEIRO CONTAINER*/
+.second-column {
+    margin-top: 3%;
+    position: absolute;
+    flex: 2 0 auto;
+    background-color: #a9f1e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 20%;
+    right: 20%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(116, 221, 169, 0.7), 0 6px 10px 0 rgba(118, 223, 191, 0.25);
+    padding: 2%;
+    text-align: initial;
+}
+.second-column h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(5, 29, 12);
+    padding: 1%;
+}
+.second-column ul {
+    display: flex;
+    list-style-type: none;
+}
+.second-column li{
+    border: 1px solid #45a0ac;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5%;
+}
+.second-column a {
+    color: #2316ce;
+    font-size: 22px;
+}
+.second-column li:hover {
+    background-color: rgb(255, 255, 255);
+    transition:background-color .5s;
+}
+.second-column p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(16, 6, 58);
+    margin: 5%;
+}
+.second-column form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+.second-column input{
+    border-radius: 7px;
+    padding-left: 5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 40px;
+}
+.second-column select {
+    border-radius: 7px;
+    padding-left: 5px;
+    width: 100%; 
+    height:40px; 
+    border:1px solid rgb(255, 255, 255);
+    color: black;
+}
+.second-column option{
+    color:black;
+}
+.second-column button {
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 60%;
+    padding: 1.5% 3.5%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 3%;
+    transition:background-color .5s;
+}
+.second-column button:hover{
+    background-color: rgb(0, 0, 0);
+    background-color: #43b1a8;
+}
+/* FIM DA PRIMEIRA PÁGINA*/
+.login {
+    background-color:rgba(160, 231, 219, 0.7);
+    border-radius: 50px ;
+    width: 20% ;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    padding-bottom: 1%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 5%;
+}
+.login a {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+.login a:hover {
+    background-color: #bff1ed;
+    transition:background-color 1s;
+}
+#acessar{
+    font-size: 150%;
+    color: rgb(11, 12, 68);
+}
+/*FIM DO PRIMEIRO CONTAINER DA SEGUNDA PÁGINA*/
+.second-column-two{
+    margin-top: 3%;
+    position: absolute;
+    flex: 2 0 auto;
+    background-color: #a9f1e7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(116, 221, 169, 0.7), 0 6px 10px 0 rgba(118, 223, 191, 0.25);
+    padding: 2%;
+    left: 35%;
+    right: 35%;
+}
+.second-column-two h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(5, 29, 12);
+    padding: 1%;
+    text-align: center;
+}
+.second-column-two ul {
+    display: flex;
+    list-style-type: none;
+}
+.second-column-two li{
+    border: 1px solid #45a0ac;
+    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5%;
+}
+.second-column-two a {
+    color: #2316ce;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+.second-column-two li:hover {
+    background-color: rgb(255, 255, 255);
+    transition:background-color .5s;
+}
+
+.second-column-two p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(16, 6, 58);
+    margin: 5%;
+}
+.second-column-two form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+.second-column-two input{
+    border-radius: 7px;
+    padding-left: 5px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.5%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 40px;
+}
+.form a{
+    font-size: 80%;
+}
+.label-input {
+    background-color:rgb(255, 255, 255) ;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 2%;
+}
+.second-column-two label{
+    font-size: 100%;
+    text-align: initial;
+}
+.second-column-two button {
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-size: 70%;
+    padding: 2% 4%;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 3%;
+    transition:background-color .5s;
+}
+.second-column-two button:hover{
+    background-color: rgb(0, 0, 0);
+    background-color: #43b1a8;
+}
+/*#region Media Query*/
+/*Tablet xl*/
+@media only screen and (max-width: 993px) and (min-width: 769px) {
+.home{
+    width: 50%;
+}
+.home-cont{
+    padding-top: 5%;
+}
+.login-home, .cadastro-home{
+    height: 210px;
+}
+.second-column-two{
+    left: 25%;
+    right: 25%;
+}
+.login{
+    width: 30%;
+}
+.second-column{
+    left: 15%;
+    right: 15%;
+}
+}
+/*Tablet*/
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+.home{
+    width: 60%;
+}
+.title_home{
+    font-size: 35px;
+}
+.login-home, .cadastro-home{
+    height: 222px;
+}
+.cont-home{
+    padding-top: 5%;
+}
+.descricao-cadastro , .descricao-login{
+    font-size: 23px;
+}
+.second-column-two{
+    left: 20%;
+    right: 20%;
+}
+.login, .cadastro{
+    width: 30%;
+}
+.second-column{
+    left: 15%;
+    right: 15%;
+}
+}
+/*Mobile*/
+@media only screen and (max-width: 575px) and (min-width: 360px) {
+    .home{
+        width: 80%;
+    }
+    .title_home{
+        font-size: 30px;
+    }
+    .login-cadastro{
+        margin-top: 20%;
+    }
+    .login-home, .cadastro-home{
+        height: 230px;
+        width: 160px;
+    }
+    .cont-home{
+        padding-top: 5%;
+    }
+    .descricao-cadastro , .descricao-login{
+        font-size: 23px;
+    }
+    .second-column-two{
+        left: 10%;
+        right: 10%;
+    }
+    .second-column-two h2, .social-media i{
+        font-size:25px;
+    }
+    .social-media ul li { 
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+    }
+    .social-media i, .second-column-two p{
+        font-size:18px;
+    }
+    .login, .cadastro{
+        width: 60%;
+    }
+    .second-column-two input{
+        height: 30px;
+    }
+    .second-column {
+        left: 7%;
+        right: 7%;
+    }
+    .second-column h2{
+        font-size: 30px;
+    }
+    }
+/*Mobile*/
+@media only screen and (max-width: 360px) {
+.first-content,.login, .second-column{
+    width: 90%;
+    height: auto;
+}
+.home-cont {
+    padding-top: 5%;
+}
+.home{
+    width: 90%;
+    margin-top: 15%;
+}
+.title_home{
+    font-size: 22px;
+}
+.login-cadastro{
+    margin-top: 30%;
+}
+.login-home, .cadastro-home{
+    height: 150px;
+    width: 120px;
+}
+.cont-home{
+    padding-top: 5%;
+}
+.descricao-cadastro , .descricao-login{
+    font-size: 14px;
+}
+.login-home a, .cadastro-home a{
+    font-size: 10px;
+}
+.second-column-two{
+    left: 10%;
+    right: 10%;
+    top:15%;
+}
+.second-column-two h2, .social-media i{
+    font-size:25px;
+}
+.social-media ul li { 
+    width: 50px;
+    height: 30px;
+    line-height: 27px;
+}
+.social-media i, .second-column-two p{
+    font-size:15px;
+}
+.login, .cadastro{
+    width: 60%;
+}
+.second-column-two input{
+    height: 10px;
+    width: 88%;
+}
+.form a {
+    font-size: 60%;
+}
+.far, .fas{
+    font-size: 60%;
+}
+.second-column-two input{
+    height: 30px;
+}
+.second-column {
+    left: 7%;
+    right: 7%;
+}
+.second-column h2{
+    font-size: 25px;
+}
+}
+/*endregion*/
