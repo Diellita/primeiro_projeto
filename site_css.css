@@ -1,30 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Tajawal', sans-serif;
 }
+
 html {
     background: url(fundo.jpg) no-repeat center fixed;
     background-size: cover;
 }
+
 .container-home {
-    display:block;
+    display: block;
     justify-content: center;
     align-items: center;
 }
-.home-cont{
+
+.home-cont {
     padding-top: 5%;
 }
-.home{
+
+.home {
     background-color: rgba(160, 231, 219, 0.7);
-    border-radius: 100px 0px 100px 0px ;
-    width: 40% ;
+    border-radius: 100px 0px 100px 0px;
+    width: 40%;
     align-items: center;
-    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    box-shadow: 1px 1px 20px 2px rgb(113, 194, 180);
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -32,21 +37,25 @@ html {
     margin-top: 5%;
     color: rgb(20, 16, 16);
 }
-.title_home{
-    font-size:40px;
+
+.title_home {
+    font-size: 40px;
 }
-.login-cadastro{
+
+.login-cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
 }
-.login-home, .cadastro-home{
-    background-color:rgb(160, 231, 219); ;
-    border-radius: 15px ;
+
+.login-home, .cadastro-home {
+    background-color: rgb(160, 231, 219);
+    ;
+    border-radius: 15px;
     width: 450px;
     height: 250px;
-    box-shadow:1px 1px 7px 2px rgb(141, 202, 192); 
+    box-shadow: 1px 1px 7px 2px rgb(141, 202, 192);
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -55,45 +64,52 @@ html {
     color: rgb(29, 29, 131);
     margin-right: 3%;
 }
-.login-home p, .cadastro-home p{
+
+.login-home p, .cadastro-home p {
     margin: 5%;
 }
-.login-home a , .cadastro-home a{
+
+.login-home a, .cadastro-home a {
     border-radius: 15px;
     text-transform: uppercase;
     font-size: 60%;
     padding: 2%;
     cursor: pointer;
-    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    box-shadow: 1px 1px 20px 2px rgb(113, 194, 180);
     font-weight: bold;
     background-color: transparent;
     border: 1px solid white;
-    transition:background-color .5s;
+    transition: background-color .5s;
     color: rgb(7, 6, 68);
     text-decoration: none;
 }
-.login-home a:hover, .cadastro-home a:hover{
+
+.login-home a:hover, .cadastro-home a:hover {
     background-color: #bff1ed;
 }
+
 /*FIM DO HOME*/
+
 .container {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .cadastro {
-    background-color:rgba(160, 231, 219, 0.7);
-    border-radius: 50px ;
-    width: 20% ;
+    background-color: rgba(160, 231, 219, 0.7);
+    border-radius: 50px;
+    width: 20%;
     justify-content: space-between;
     align-items: center;
-    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    box-shadow: 1px 1px 20px 2px rgb(113, 194, 180);
     padding-bottom: 1%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 3%;
 }
+
 .cadastro a {
     border-radius: 5px;
     text-transform: uppercase;
@@ -101,15 +117,19 @@ html {
     margin-bottom: 3%;
     text-decoration: none;
 }
+
 .cadastro a:hover {
     background-color: #bff1ed;
-    transition:background-color 1s;
+    transition: background-color 1s;
 }
-#acessar{
+
+#acessar {
     font-size: 150%;
     color: rgb(11, 12, 68);
 }
+
 /*FIM DO PRIMEIRO CONTAINER*/
+
 .second-column {
     margin-top: 3%;
     position: absolute;
@@ -125,6 +145,7 @@ html {
     padding: 2%;
     text-align: initial;
 }
+
 .second-column h2 {
     font-size: 35px;
     font-weight: bold;
@@ -132,11 +153,13 @@ html {
     color: rgb(5, 29, 12);
     padding: 1%;
 }
+
 .second-column ul {
     display: flex;
     list-style-type: none;
 }
-.second-column li{
+
+.second-column li {
     border: 1px solid #45a0ac;
     border-radius: 50%;
     width: 60px;
@@ -145,27 +168,32 @@ html {
     text-align: center;
     margin: 5%;
 }
+
 .second-column a {
     color: #2316ce;
     font-size: 22px;
 }
+
 .second-column li:hover {
     background-color: rgb(255, 255, 255);
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
+
 .second-column p {
     font-size: 22px;
     font-weight: 600;
     color: rgb(16, 6, 58);
     margin: 5%;
 }
+
 .second-column form {
     display: flex;
     flex-direction: column;
     width: 75%;
     height: 100%;
 }
-.second-column input{
+
+.second-column input {
     border-radius: 7px;
     padding-left: 5px;
     height: 30px;
@@ -176,17 +204,20 @@ html {
     width: 100%;
     height: 40px;
 }
+
 .second-column select {
     border-radius: 7px;
     padding-left: 5px;
-    width: 100%; 
-    height:40px; 
-    border:1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(255, 255, 255);
     color: black;
 }
-.second-column option{
-    color:black;
+
+.second-column option {
+    color: black;
 }
+
 .second-column button {
     border-radius: 15px;
     text-transform: uppercase;
@@ -197,26 +228,30 @@ html {
     background-color: transparent;
     border: 1px solid rgb(0, 0, 0);
     margin-top: 3%;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
-.second-column button:hover{
+
+.second-column button:hover {
     background-color: rgb(0, 0, 0);
     background-color: #43b1a8;
 }
+
 /* FIM DA PRIMEIRA PÁGINA*/
+
 .login {
-    background-color:rgba(160, 231, 219, 0.7);
-    border-radius: 50px ;
-    width: 20% ;
+    background-color: rgba(160, 231, 219, 0.7);
+    border-radius: 50px;
+    width: 20%;
     justify-content: space-between;
     align-items: center;
-    box-shadow:1px 1px 20px 2px rgb(113, 194, 180); 
+    box-shadow: 1px 1px 20px 2px rgb(113, 194, 180);
     padding-bottom: 1%;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 5%;
 }
+
 .login a {
     border-radius: 5px;
     text-transform: uppercase;
@@ -224,16 +259,20 @@ html {
     margin-bottom: 5%;
     text-decoration: none;
 }
+
 .login a:hover {
     background-color: #bff1ed;
-    transition:background-color 1s;
+    transition: background-color 1s;
 }
-#acessar{
+
+#acessar {
     font-size: 150%;
     color: rgb(11, 12, 68);
 }
+
 /*FIM DO PRIMEIRO CONTAINER DA SEGUNDA PÁGINA*/
-.second-column-two{
+
+.second-column-two {
     margin-top: 3%;
     position: absolute;
     flex: 2 0 auto;
@@ -247,7 +286,8 @@ html {
     left: 35%;
     right: 35%;
 }
-.second-column-two h2{
+
+.second-column-two h2 {
     font-size: 35px;
     font-weight: bold;
     text-transform: capitalize;
@@ -255,11 +295,13 @@ html {
     padding: 1%;
     text-align: center;
 }
+
 .second-column-two ul {
     display: flex;
     list-style-type: none;
 }
-.second-column-two li{
+
+.second-column-two li {
     border: 1px solid #45a0ac;
     border-radius: 50%;
     width: 60px;
@@ -268,15 +310,17 @@ html {
     text-align: center;
     margin: 5%;
 }
+
 .second-column-two a {
     color: #2316ce;
     font-size: 22px;
     text-align: center;
     text-decoration: none;
 }
+
 .second-column-two li:hover {
     background-color: rgb(255, 255, 255);
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
 
 .second-column-two p {
@@ -285,13 +329,15 @@ html {
     color: rgb(16, 6, 58);
     margin: 5%;
 }
+
 .second-column-two form {
     display: flex;
     flex-direction: column;
     width: 75%;
     height: 100%;
 }
-.second-column-two input{
+
+.second-column-two input {
     border-radius: 7px;
     padding-left: 5px;
     border: none;
@@ -301,20 +347,24 @@ html {
     width: 90%;
     height: 40px;
 }
-.form a{
+
+.form a {
     font-size: 80%;
 }
+
 .label-input {
-    background-color:rgb(255, 255, 255) ;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
     width: 100%;
     height: 100%;
     margin: 2%;
 }
-.second-column-two label{
+
+.second-column-two label {
     font-size: 100%;
     text-align: initial;
 }
+
 .second-column-two button {
     border-radius: 15px;
     text-transform: uppercase;
@@ -325,187 +375,198 @@ html {
     background-color: transparent;
     border: 1px solid rgb(0, 0, 0);
     margin-top: 3%;
-    transition:background-color .5s;
+    transition: background-color .5s;
 }
-.second-column-two button:hover{
+
+.second-column-two button:hover {
     background-color: rgb(0, 0, 0);
     background-color: #43b1a8;
 }
+
 /*#region Media Query*/
+
 /*Tablet xl*/
+
 @media only screen and (max-width: 993px) and (min-width: 769px) {
-.home{
-    width: 50%;
+    .home {
+        width: 50%;
+    }
+    .home-cont {
+        padding-top: 5%;
+    }
+    .login-home, .cadastro-home {
+        height: 210px;
+    }
+    .second-column-two {
+        left: 25%;
+        right: 25%;
+    }
+    .login {
+        width: 30%;
+    }
+    .second-column {
+        left: 15%;
+        right: 15%;
+    }
 }
-.home-cont{
-    padding-top: 5%;
-}
-.login-home, .cadastro-home{
-    height: 210px;
-}
-.second-column-two{
-    left: 25%;
-    right: 25%;
-}
-.login{
-    width: 30%;
-}
-.second-column{
-    left: 15%;
-    right: 15%;
-}
-}
+
 /*Tablet*/
+
 @media only screen and (max-width: 768px) and (min-width: 576px) {
-.home{
-    width: 60%;
+    .home {
+        width: 60%;
+    }
+    .title_home {
+        font-size: 35px;
+    }
+    .login-home, .cadastro-home {
+        height: 222px;
+    }
+    .cont-home {
+        padding-top: 5%;
+    }
+    .descricao-cadastro, .descricao-login {
+        font-size: 23px;
+    }
+    .second-column-two {
+        left: 20%;
+        right: 20%;
+    }
+    .login, .cadastro {
+        width: 30%;
+    }
+    .second-column {
+        left: 15%;
+        right: 15%;
+    }
 }
-.title_home{
-    font-size: 35px;
-}
-.login-home, .cadastro-home{
-    height: 222px;
-}
-.cont-home{
-    padding-top: 5%;
-}
-.descricao-cadastro , .descricao-login{
-    font-size: 23px;
-}
-.second-column-two{
-    left: 20%;
-    right: 20%;
-}
-.login, .cadastro{
-    width: 30%;
-}
-.second-column{
-    left: 15%;
-    right: 15%;
-}
-}
+
 /*Mobile*/
+
 @media only screen and (max-width: 575px) and (min-width: 360px) {
-    .home{
+    .home {
         width: 80%;
     }
-    .title_home{
+    .title_home {
         font-size: 30px;
     }
-    .login-cadastro{
+    .login-cadastro {
         margin-top: 20%;
     }
-    .login-home, .cadastro-home{
+    .login-home, .cadastro-home {
         height: 230px;
         width: 160px;
     }
-    .cont-home{
+    .cont-home {
         padding-top: 5%;
     }
-    .descricao-cadastro , .descricao-login{
+    .descricao-cadastro, .descricao-login {
         font-size: 23px;
     }
-    .second-column-two{
+    .second-column-two {
         left: 10%;
         right: 10%;
-        top:22%;
+        top: 22%;
     }
-    .second-column-two h2, .social-media i{
-        font-size:25px;
+    .second-column-two h2, .social-media i {
+        font-size: 25px;
     }
-    .social-media ul li { 
+    .social-media ul li {
         width: 50px;
         height: 30px;
         line-height: 30px;
     }
-    .social-media i, .second-column-two p{
-        font-size:18px;
+    .social-media i, .second-column-two p {
+        font-size: 18px;
     }
-    .login, .cadastro{
+    .login, .cadastro {
         width: 60%;
         margin-top: 10%;
     }
-    .second-column-two input{
+    .second-column-two input {
         height: 30px;
     }
     .second-column {
         left: 7%;
         right: 7%;
     }
-    .second-column h2{
+    .second-column h2 {
         font-size: 30px;
     }
-    }
+}
+
 /*Mobile*/
+
 @media only screen and (max-width: 360px) {
-.first-content,.login, .second-column{
-    width: 90%;
-    height: auto;
+    .first-content, .login, .second-column {
+        width: 90%;
+        height: auto;
+    }
+    .home-cont {
+        padding-top: 5%;
+    }
+    .home {
+        width: 90%;
+        margin-top: 15%;
+    }
+    .title_home {
+        font-size: 22px;
+    }
+    .login-cadastro {
+        margin-top: 30%;
+    }
+    .login-home, .cadastro-home {
+        height: 150px;
+        width: 120px;
+    }
+    .cont-home {
+        padding-top: 5%;
+    }
+    .descricao-cadastro, .descricao-login {
+        font-size: 14px;
+    }
+    .login-home a, .cadastro-home a {
+        font-size: 10px;
+    }
+    .second-column-two {
+        left: 10%;
+        right: 10%;
+        top: 15%;
+    }
+    .second-column-two h2, .social-media i {
+        font-size: 25px;
+    }
+    .social-media ul li {
+        width: 50px;
+        height: 30px;
+        line-height: 27px;
+    }
+    .social-media i, .second-column-two p {
+        font-size: 15px;
+    }
+    .login, .cadastro {
+        width: 60%;
+    }
+    .second-column-two input {
+        height: 10px;
+        width: 88%;
+    }
+    .form a {
+        font-size: 60%;
+    }
+    .far, .fas {
+        font-size: 60%;
+    }
+    .second-column-two input {
+        height: 30px;
+    }
+    .second-column {
+        left: 7%;
+        right: 7%;
+    }
+    .second-column h2 {
+        font-size: 25px;
+    }
 }
-.home-cont {
-    padding-top: 5%;
-}
-.home{
-    width: 90%;
-    margin-top: 15%;
-}
-.title_home{
-    font-size: 22px;
-}
-.login-cadastro{
-    margin-top: 30%;
-}
-.login-home, .cadastro-home{
-    height: 150px;
-    width: 120px;
-}
-.cont-home{
-    padding-top: 5%;
-}
-.descricao-cadastro , .descricao-login{
-    font-size: 14px;
-}
-.login-home a, .cadastro-home a{
-    font-size: 10px;
-}
-.second-column-two{
-    left: 10%;
-    right: 10%;
-    top:15%;
-}
-.second-column-two h2, .social-media i{
-    font-size:25px;
-}
-.social-media ul li { 
-    width: 50px;
-    height: 30px;
-    line-height: 27px;
-}
-.social-media i, .second-column-two p{
-    font-size:15px;
-}
-.login, .cadastro{
-    width: 60%;
-}
-.second-column-two input{
-    height: 10px;
-    width: 88%;
-}
-.form a {
-    font-size: 60%;
-}
-.far, .fas{
-    font-size: 60%;
-}
-.second-column-two input{
-    height: 30px;
-}
-.second-column {
-    left: 7%;
-    right: 7%;
-}
-.second-column h2{
-    font-size: 25px;
-}
-}
+
 /*endregion*/
