@@ -51,10 +51,10 @@ html {
 
 .login-home, .cadastro-home {
     background-color: rgb(160, 231, 219);
-    ;
     border-radius: 15px;
-    width: 450px;
-    height: 250px;
+    margin-left: 2%;
+    width: auto;
+    height: auto;
     box-shadow: 1px 1px 7px 2px rgb(141, 202, 192);
     text-align: center;
     padding-top: 3%;
@@ -394,9 +394,6 @@ html {
     .home-cont {
         padding-top: 5%;
     }
-    .login-home, .cadastro-home {
-        height: 210px;
-    }
     .second-column-two {
         left: 25%;
         right: 25%;
@@ -418,9 +415,6 @@ html {
     }
     .title_home {
         font-size: 35px;
-    }
-    .login-home, .cadastro-home {
-        height: 222px;
     }
     .cont-home {
         padding-top: 5%;
@@ -452,10 +446,6 @@ html {
     }
     .login-cadastro {
         margin-top: 20%;
-    }
-    .login-home, .cadastro-home {
-        height: 230px;
-        width: 160px;
     }
     .cont-home {
         padding-top: 5%;
@@ -515,20 +505,14 @@ html {
     .login-cadastro {
         margin-top: 30%;
     }
-    .login-home, .cadastro-home {
-        height: auto;
-        width: auto;
-        margin-left: 2%;
-        min-width: 65.9px;
-    }
     .cont-home {
         padding-top: 5%;
     }
     .descricao-cadastro, .descricao-login {
-        font-size: 14px;
+        font-size: small;
     }
     .login-home a, .cadastro-home a {
-        font-size: 10px;
+        font-size: x-small;
     }
     .second-column-two {
         left: 10%;
