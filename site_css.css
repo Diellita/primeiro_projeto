@@ -464,9 +464,9 @@ html {
         font-size: 25px;
     }
     .social-media ul li {
-        width: 50px;
-        height: 30px;
-        line-height: 30px;
+        width: 40px;
+        height: 28px;
+        line-height: 25px;
     }
     .social-media i, .second-column-two p {
         font-size: 18px;
@@ -525,9 +525,9 @@ html {
         font-size: 25px;
     }
     .social-media ul li {
-        width: 50px;
-        height: 30px;
-        line-height: 27px;
+        width: 35px;
+        height: 25px;
+        line-height: 20px;
     }
     .social-media i, .second-column-two p {
         font-size: 15px;
