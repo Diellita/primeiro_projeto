@@ -524,13 +524,9 @@ html {
     .second-column-two h2, .social-media i {
         font-size: 25px;
     }
-    .social-media ul li {
-        width: 35px;
-        height: 25px;
-        line-height: 20px;
-    }
+
     .social-media i, .second-column-two p {
-        font-size: 15px;
+        font-size: 23px;
     }
     .login, .cadastro {
         width: 60%;
