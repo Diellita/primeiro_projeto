@@ -463,13 +463,13 @@ html {
     .second-column-two h2, .social-media i {
         font-size: 25px;
     }
-    .social-media ul li {
-        width: 40px;
-        height: 28px;
-        line-height: 25px;
+    .social-media ul li{
+        width: 50px;
+        height: 30px;
+        line-height: 28px;
     }
     .social-media i, .second-column-two p {
-        font-size: 18px;
+        font-size: 23px;
     }
     .login, .cadastro {
         width: 60%;
@@ -521,10 +521,14 @@ html {
         right: 10%;
         top: 15%;
     }
+    .social-media ul li{
+        width: 50px;
+        height: 30px;
+        line-height: 28px;
+    }
     .second-column-two h2, .social-media i {
         font-size: 25px;
     }
-
     .social-media i, .second-column-two p {
         font-size: 23px;
     }
@@ -554,3 +558,5 @@ html {
 }
 
 /*endregion*/
+
+
