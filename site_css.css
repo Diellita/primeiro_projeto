@@ -522,15 +522,14 @@ html {
         top: 15%;
     }
     .social-media ul li{
-        width: 50px;
-        height: 30px;
-        line-height: 28px;
+        border:none;
+        border-radius: none;
     }
     .second-column-two h2, .social-media i {
-        font-size: 25px;
-    }
-    .social-media i, .second-column-two p {
         font-size: 23px;
+    }
+    .second-column p, .second-column-two p {
+        font-size: 18px;
     }
     .login, .cadastro {
         width: 60%;
